@@ -13,21 +13,6 @@
         unten rechts angezeigt wird. Diese Biblothek benötigt
         die Abhängigkeiten Swing und AWT und verwendet absolute Koordinaten.</description>
 
-    <dependencies>
-        <!-- Swing library -->
-        <dependency>
-            <groupId>javax.swing</groupId>
-            <artifactId>swing</artifactId>
-            <version>1.0.0</version> <!-- Platzhalterversion, da Swing im JDK enthalten ist -->
-        </dependency>
-        <!-- AWT library -->
-        <dependency>
-            <groupId>java.awt</groupId>
-            <artifactId>awt</artifactId>
-            <version>1.0.0</version> <!-- Platzhalterversion, da AWT im JDK enthalten ist -->
-        </dependency>
-    </dependencies>
-
     <build>
         <plugins>
             <!-- Maven JAR Plugin -->
